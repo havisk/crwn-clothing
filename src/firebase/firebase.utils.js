@@ -1,9 +1,10 @@
 import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
+import { google } from "../../keys/google-api";
 
 const config = {
-  apiKey: "AIzaSyBXSyLcDBeTM05rB-yT0h4D01sAh8BCHBU",
+  apiKey: google,
   authDomain: "crwn-db-9780e.firebaseapp.com",
   databaseURL: "https://crwn-db-9780e.firebaseio.com",
   projectId: "crwn-db-9780e",
