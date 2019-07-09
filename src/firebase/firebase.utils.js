@@ -1,7 +1,7 @@
 import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
-import { google } from "../../keys/google-api";
+import { google } from "../keys/google-api";
 
 const config = {
   apiKey: google,
